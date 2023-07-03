@@ -1,0 +1,44 @@
+.goal-setting-template-content {
+
+    .lane {
+        margin: 30px 10%;
+    }
+
+    .goal-header {
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .smart-topic {
+        display: flex;
+        justify-content: space-evenly;
+
+        .smart-letter-content {
+            padding: 0 2px;
+        }
+
+        .smart-letter {
+            text-align: left;
+        }
+
+        .smart-letter-description {
+            font-size: 10px;
+        }
+    }
+
+    .reason {
+        margin: 20px 0;
+    }
+
+    .goal-study {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .goal-study__header {}
+
+        .goal-study__body {}
+    }
+}
