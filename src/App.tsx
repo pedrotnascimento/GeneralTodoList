@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import { HomeList } from './components/HomeLists';
-import { GoalSettingTemplate } from './components/templates/GoalSettingTemplate';
+import { GoalSettingTemplate } from './components/templates/goal-setting';
 import { ConfigProvider, theme } from 'antd';
 import { ThemeSelector } from './components/configurations/ThemeSelector';
 
