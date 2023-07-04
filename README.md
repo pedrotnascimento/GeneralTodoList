@@ -6,7 +6,7 @@ Life long project for studying and implement features on frontend.
 # Features to reach
 
 Use and study:
-- Dark, Light and system default theme: Useful for modern applications to adapt to the user preferences.
+- Dark, Light and system default theme: Useful for modern applications to adapt to the user preferences. [V]
 - use styled-components library: a way of changing styling dinamically
 - react routes
     - protecting routes in login
