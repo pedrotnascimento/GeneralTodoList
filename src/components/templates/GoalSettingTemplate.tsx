@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./goalSettingTemplateStyle.scss";
+import { Checkbox, Input } from "antd";
+import Title from "antd/es/typography/Title";
 
 export function GoalSettingTemplate() {
     const [goal, setGoal] = useState("");
@@ -10,21 +12,21 @@ export function GoalSettingTemplate() {
 
     return <div>
         <div className="navbar">
-            <h2 className="template-title">Goal Setting Template</h2>
+            <Title className="template-title">Goal Setting Template</Title>
         </div>
         <div className="goal-setting-template-content">
             <div className="goal-header">
                 <div className="lane lane-left">
                     <div className="goal-header">What is your Goal?</div>
                     <div>
-                        <input onChange={(e) => setGoal(e.target.value)}
+                        <Input onChange={(e) => setGoal(e.target.value)}
                             placeholder="Write Goal" />
                     </div>
                 </div>
                 <div className="lane lane-right">
                     <div className="important-header">Why is it Important?</div>
                     <div>
-                        <input onChange={(e) => setImportance(e.target.value)}
+                        <Input onChange={(e) => setImportance(e.target.value)}
                             placeholder="Explain the importance" />
                     </div>
                 </div>
@@ -35,14 +37,14 @@ export function GoalSettingTemplate() {
                 <div className="smart-letter-content">
                     <div className="smart-letter">S</div>
                     <div className="smart-letter-description">
-                        Is it specific? <input type="checkbox" />
+                        Is it specific? <Checkbox type="checkbox" />
                     </div>
                 </div>
                 <div className="smart-letter-content">
                     <div className="smart-letter">M</div>
 
                     <div className="smart-letter-description">
-                        Is it measureable? <input type="checkbox" />
+                        Is it measureable? <Checkbox type="checkbox" />
                     </div>
 
                 </div>
@@ -50,7 +52,7 @@ export function GoalSettingTemplate() {
                     <div className="smart-letter">A</div>
 
                     <div className="smart-letter-description">
-                        Is it attainable? <input type="checkbox" />
+                        Is it attainable? <Checkbox type="checkbox" />
                     </div>
 
                 </div>
@@ -58,7 +60,7 @@ export function GoalSettingTemplate() {
                     <div className="smart-letter">R</div>
 
                     <div className="smart-letter-description">
-                        Is it relevant? <input type="checkbox" />
+                        Is it relevant? <Checkbox type="checkbox" />
                     </div>
 
                 </div>
@@ -66,15 +68,15 @@ export function GoalSettingTemplate() {
                     <div className="smart-letter">T</div>
 
                     <div className="smart-letter-description">
-                        Is it time-specific? <input type="checkbox" />
+                        Is it time-specific? <Checkbox type="checkbox" />
                     </div>
 
                 </div>
 
             </div>
             <div className="reason">
-                <textarea cols={50} rows={5} placeholder="Say the reasons for ">
-                </textarea>
+                <Input.TextArea placeholder="Say the reasons for ">
+                </Input.TextArea>
             </div>
             <div className="goal-study">
                 <div className="lane">
