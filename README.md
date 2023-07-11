@@ -8,9 +8,12 @@ Life long project for studying and implement features on frontend.
 - create list of potential blockers and steps to sucess (todo list)
 - manage the reasons of each letter in Smart method.
 
-## Use and study:
+## About react
 
 - testing unit
+    - study tdd [V]
+- domain driven design
+    - study ddd
 - react routes
     - protecting routes in login
 - use hooks:
@@ -18,6 +21,18 @@ Life long project for studying and implement features on frontend.
  - useContext  (use for change theme over the application)
  - useRef
  - provider??
+ - useCustomHook
+
+## Frameworks and tools
+- Unit test frameworks:
+    - jest
+    - cypress
+    - Mutation test: Stryker
+    - React Testing Library: https://testing-library.com/docs/react-testing-library/intro/
+- Sonar 
+- Profiler
+- Linter checking
+
 
 ## Styles
 - styling framework:
